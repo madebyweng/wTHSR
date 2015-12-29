@@ -1,0 +1,11 @@
+{
+    "title": "update",
+    "version": "1",
+    "hits": [{
+             "title": "高鐵時刻表測試版",
+             "url": "https://s3.amazonaws.com/w-e-n-g/data_test.json",
+             "no": "1",
+             "description": "for 測試版"
+             }]
+
+}

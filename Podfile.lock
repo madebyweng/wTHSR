@@ -1,0 +1,13 @@
+PODS:
+  - SBJson (2.2.3)
+  - VTAcknowledgementsViewController (0.17)
+
+DEPENDENCIES:
+  - SBJson (~> 2.2.3)
+  - VTAcknowledgementsViewController
+
+SPEC CHECKSUMS:
+  SBJson: c20bb8131fd41b858c5dc7f131eb833def727cd0
+  VTAcknowledgementsViewController: 6056f5f5e5ed995bbf0581bed6ddd29355ca9a80
+
+COCOAPODS: 0.39.0
