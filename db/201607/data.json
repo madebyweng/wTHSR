@@ -14,11 +14,11 @@
       "taoyuan": "07:09",
       "banqiao": "07:22",
       "taipei": "07:32",
-      "Nangang": "07:40",
+      "nangang": "07:40",
       "Applicable Trains": ""
     },
     {
-      "operate": "thursday,friday,monday,tuesday,wednesday",
+      "operate": "thu,fri,mon,tue,wed",
       "train": 1504,
       "zuoying": "-",
       "tainan": "-",
@@ -31,11 +31,11 @@
       "taoyuan": "07:32",
       "banqiao": "07:45",
       "taipei": "07:56",
-      "Nangang": "08:05",
+      "nangang": "08:05",
       "Applicable Trains": ""
     },
     {
-      "operate": "Thu,Fri,Mon,Tue,Wed",
+      "operate": "thu,fri,mon,tue,wed",
       "train": 1508,
       "zuoying": "-",
       "tainan": "-",
@@ -48,11 +48,11 @@
       "taoyuan": "07:51",
       "banqiao": "08:05",
       "taipei": "08:16",
-      "Nangang": "08:25",
+      "nangang": "08:25",
       "Applicable Trains": ""
     },
     {
-      "operate": "Mon",
+      "operate": "mon",
       "train": 1510,
       "zuoying": "-",
       "tainan": "-",
@@ -65,11 +65,11 @@
       "taoyuan": "08:03",
       "banqiao": "08:16",
       "taipei": "08:27",
-      "Nangang": "08:35",
+      "nangang": "08:35",
       "Applicable Trains": ""
     },
     {
-      "operate": "Thu,Fri,Mon,Tue,Wed",
+      "operate": "thu,fri,mon,tue,wed",
       "train": 1514,
       "zuoying": "-",
       "tainan": "-",
@@ -82,11 +82,11 @@
       "taoyuan": "08:51",
       "banqiao": "09:05",
       "taipei": "09:16",
-      "Nangang": "09:25",
+      "nangang": "09:25",
       "Applicable Trains": ""
     },
     {
-      "operate": "sunday",
+      "operate": "sun",
       "train": 1538,
       "zuoying": "-",
       "tainan": "-",
@@ -99,11 +99,11 @@
       "taoyuan": "14:51",
       "banqiao": "15:05",
       "taipei": "15:16",
-      "Nangang": "15:25",
+      "nangang": "15:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1542,
       "zuoying": "-",
       "tainan": "-",
@@ -116,11 +116,11 @@
       "taoyuan": "15:51",
       "banqiao": "16:05",
       "taipei": "16:16",
-      "Nangang": "16:25",
+      "nangang": "16:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1546,
       "zuoying": "-",
       "tainan": "-",
@@ -133,11 +133,11 @@
       "taoyuan": "16:51",
       "banqiao": "17:05",
       "taipei": "17:16",
-      "Nangang": "17:25",
+      "nangang": "17:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1550,
       "zuoying": "-",
       "tainan": "-",
@@ -150,11 +150,11 @@
       "taoyuan": "17:51",
       "banqiao": "18:05",
       "taipei": "18:16",
-      "Nangang": "18:25",
+      "nangang": "18:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1554,
       "zuoying": "-",
       "tainan": "-",
@@ -167,11 +167,11 @@
       "taoyuan": "18:51",
       "banqiao": "19:05",
       "taipei": "19:16",
-      "Nangang": "19:25",
+      "nangang": "19:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1558,
       "zuoying": "-",
       "tainan": "-",
@@ -184,11 +184,11 @@
       "taoyuan": "19:51",
       "banqiao": "20:05",
       "taipei": "20:16",
-      "Nangang": "20:25",
+      "nangang": "20:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1562,
       "zuoying": "-",
       "tainan": "-",
@@ -201,11 +201,11 @@
       "taoyuan": "20:51",
       "banqiao": "21:05",
       "taipei": "21:16",
-      "Nangang": "21:25",
+      "nangang": "21:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1566,
       "zuoying": "-",
       "tainan": "-",
@@ -218,11 +218,11 @@
       "taoyuan": "21:51",
       "banqiao": "22:05",
       "taipei": "22:16",
-      "Nangang": "22:25",
+      "nangang": "22:25",
       "Applicable Trains": "-"
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1570,
       "zuoying": "-",
       "tainan": "-",
@@ -235,7 +235,7 @@
       "taoyuan": "22:36",
       "banqiao": "22:49",
       "taipei": "23:01",
-      "Nangang": "23:10",
+      "nangang": "23:10",
       "Applicable Trains": "-"
     },
     {
@@ -252,11 +252,11 @@
       "taoyuan": "08:10",
       "banqiao": "08:22",
       "taipei": "08:32",
-      "Nangang": "08:40",
+      "nangang": "08:40",
       "Applicable Trains": ""
     },
     {
-      "operate": "Thu,Fri,Mon,Tue,Wed",
+      "operate": "thu,fri,mon,tue,wed",
       "train": 1202,
       "zuoying": "06:25",
       "tainan": "06:38",
@@ -269,11 +269,11 @@
       "taoyuan": "-",
       "banqiao": "-",
       "taipei": "08:07",
-      "Nangang": "08:15",
+      "nangang": "08:15",
       "Applicable Trains": ""
     },
     {
-      "operate": "Thu,Fri,Mon,Tue,Wed",
+      "operate": "thu,fri,mon,tue,wed",
       "train": 1602,
       "zuoying": "06:40",
       "tainan": "06:53",
@@ -286,7 +286,7 @@
       "taoyuan": "08:18",
       "banqiao": "08:31",
       "taipei": "08:42",
-      "Nangang": "08:50",
+      "nangang": "08:50",
       "Applicable Trains": ""
     },
     {
@@ -303,7 +303,7 @@
       "taoyuan": "-",
       "banqiao": "08:27",
       "taipei": "08:37",
-      "Nangang": "08:45",
+      "nangang": "08:45",
       "Applicable Trains": ""
     },
     {
@@ -320,7 +320,7 @@
       "taoyuan": "08:38",
       "banqiao": "08:51",
       "taipei": "09:02",
-      "Nangang": "09:10",
+      "nangang": "09:10",
       "Applicable Trains": ""
     },
     {
@@ -337,7 +337,7 @@
       "taoyuan": "-",
       "banqiao": "08:47",
       "taipei": "08:57",
-      "Nangang": "09:05",
+      "nangang": "09:05",
       "Applicable Trains": ""
     },
     {
@@ -354,7 +354,7 @@
       "taoyuan": "09:20",
       "banqiao": "09:32",
       "taipei": "09:42",
-      "Nangang": "09:50",
+      "nangang": "09:50",
       "Applicable Trains": ""
     },
     {
@@ -371,7 +371,7 @@
       "taoyuan": "09:11",
       "banqiao": "09:25",
       "taipei": "09:36",
-      "Nangang": "09:45",
+      "nangang": "09:45",
       "Applicable Trains": ""
     },
     {
@@ -388,7 +388,7 @@
       "taoyuan": "-",
       "banqiao": "09:21",
       "taipei": "09:31",
-      "Nangang": "09:40",
+      "nangang": "09:40",
       "Applicable Trains": ""
     },
     {
@@ -405,11 +405,11 @@
       "taoyuan": "09:38",
       "banqiao": "09:51",
       "taipei": "10:02",
-      "Nangang": "10:10",
+      "nangang": "10:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "saturday,Sun,Mon",
+      "operate": "sat,sun,mon",
       "train": 1210,
       "zuoying": "08:15",
       "tainan": "08:28",
@@ -422,7 +422,7 @@
       "taoyuan": "-",
       "banqiao": "09:47",
       "taipei": "09:57",
-      "Nangang": "10:05",
+      "nangang": "10:05",
       "Applicable Trains": ""
     },
     {
@@ -439,7 +439,7 @@
       "taoyuan": "10:20",
       "banqiao": "10:32",
       "taipei": "10:42",
-      "Nangang": "10:50",
+      "nangang": "10:50",
       "Applicable Trains": ""
     },
     {
@@ -456,7 +456,7 @@
       "taoyuan": "10:11",
       "banqiao": "10:25",
       "taipei": "10:36",
-      "Nangang": "10:45",
+      "nangang": "10:45",
       "Applicable Trains": ""
     },
     {
@@ -473,7 +473,7 @@
       "taoyuan": "-",
       "banqiao": "10:21",
       "taipei": "10:31",
-      "Nangang": "10:40",
+      "nangang": "10:40",
       "Applicable Trains": ""
     },
     {
@@ -490,7 +490,7 @@
       "taoyuan": "10:38",
       "banqiao": "10:51",
       "taipei": "11:02",
-      "Nangang": "11:10",
+      "nangang": "11:10",
       "Applicable Trains": ""
     },
     {
@@ -507,11 +507,11 @@
       "taoyuan": "11:20",
       "banqiao": "11:32",
       "taipei": "11:42",
-      "Nangang": "11:50",
+      "nangang": "11:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat,Sun",
+      "operate": "sat,sun",
       "train": 1622,
       "zuoying": "09:35",
       "tainan": "09:48",
@@ -524,7 +524,7 @@
       "taoyuan": "11:11",
       "banqiao": "11:25",
       "taipei": "11:36",
-      "Nangang": "11:45",
+      "nangang": "11:45",
       "Applicable Trains": "-"
     },
     {
@@ -541,7 +541,7 @@
       "taoyuan": "-",
       "banqiao": "11:21",
       "taipei": "11:31",
-      "Nangang": "11:40",
+      "nangang": "11:40",
       "Applicable Trains": ""
     },
     {
@@ -558,11 +558,11 @@
       "taoyuan": "11:38",
       "banqiao": "11:51",
       "taipei": "12:02",
-      "Nangang": "12:10",
+      "nangang": "12:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat",
+      "operate": "sat",
       "train": 1218,
       "zuoying": "10:15",
       "tainan": "10:28",
@@ -575,7 +575,7 @@
       "taoyuan": "-",
       "banqiao": "11:47",
       "taipei": "11:57",
-      "Nangang": "12:05",
+      "nangang": "12:05",
       "Applicable Trains": "-"
     },
     {
@@ -592,7 +592,7 @@
       "taoyuan": "12:20",
       "banqiao": "12:32",
       "taipei": "12:42",
-      "Nangang": "12:50",
+      "nangang": "12:50",
       "Applicable Trains": ""
     },
     {
@@ -609,7 +609,7 @@
       "taoyuan": "12:11",
       "banqiao": "12:25",
       "taipei": "12:36",
-      "Nangang": "12:45",
+      "nangang": "12:45",
       "Applicable Trains": ""
     },
     {
@@ -626,7 +626,7 @@
       "taoyuan": "-",
       "banqiao": "12:21",
       "taipei": "12:31",
-      "Nangang": "12:40",
+      "nangang": "12:40",
       "Applicable Trains": ""
     },
     {
@@ -643,7 +643,7 @@
       "taoyuan": "12:38",
       "banqiao": "12:51",
       "taipei": "13:02",
-      "Nangang": "13:10",
+      "nangang": "13:10",
       "Applicable Trains": ""
     },
     {
@@ -660,7 +660,7 @@
       "taoyuan": "13:20",
       "banqiao": "13:32",
       "taipei": "13:42",
-      "Nangang": "13:50",
+      "nangang": "13:50",
       "Applicable Trains": ""
     },
     {
@@ -677,7 +677,7 @@
       "taoyuan": "-",
       "banqiao": "13:21",
       "taipei": "13:31",
-      "Nangang": "13:40",
+      "nangang": "13:40",
       "Applicable Trains": ""
     },
     {
@@ -694,7 +694,7 @@
       "taoyuan": "13:38",
       "banqiao": "13:51",
       "taipei": "14:02",
-      "Nangang": "14:10",
+      "nangang": "14:10",
       "Applicable Trains": ""
     },
     {
@@ -711,11 +711,11 @@
       "taoyuan": "14:20",
       "banqiao": "14:32",
       "taipei": "14:42",
-      "Nangang": "14:50",
+      "nangang": "14:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat,Sun",
+      "operate": "sat,sun",
       "train": 1640,
       "zuoying": "12:35",
       "tainan": "12:48",
@@ -728,7 +728,7 @@
       "taoyuan": "14:11",
       "banqiao": "14:25",
       "taipei": "14:36",
-      "Nangang": "14:45",
+      "nangang": "14:45",
       "Applicable Trains": "-"
     },
     {
@@ -745,7 +745,7 @@
       "taoyuan": "-",
       "banqiao": "14:21",
       "taipei": "14:31",
-      "Nangang": "14:40",
+      "nangang": "14:40",
       "Applicable Trains": ""
     },
     {
@@ -762,7 +762,7 @@
       "taoyuan": "14:38",
       "banqiao": "14:51",
       "taipei": "15:02",
-      "Nangang": "15:10",
+      "nangang": "15:10",
       "Applicable Trains": ""
     },
     {
@@ -779,11 +779,11 @@
       "taoyuan": "15:20",
       "banqiao": "15:32",
       "taipei": "15:42",
-      "Nangang": "15:50",
+      "nangang": "15:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat,Sun",
+      "operate": "sat,sun",
       "train": 1646,
       "zuoying": "13:35",
       "tainan": "13:48",
@@ -796,7 +796,7 @@
       "taoyuan": "15:11",
       "banqiao": "15:25",
       "taipei": "15:36",
-      "Nangang": "15:45",
+      "nangang": "15:45",
       "Applicable Trains": "-"
     },
     {
@@ -813,7 +813,7 @@
       "taoyuan": "-",
       "banqiao": "15:21",
       "taipei": "15:31",
-      "Nangang": "15:40",
+      "nangang": "15:40",
       "Applicable Trains": ""
     },
     {
@@ -830,11 +830,11 @@
       "taoyuan": "15:38",
       "banqiao": "15:51",
       "taipei": "16:02",
-      "Nangang": "16:10",
+      "nangang": "16:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1234,
       "zuoying": "14:15",
       "tainan": "14:28",
@@ -847,7 +847,7 @@
       "taoyuan": "-",
       "banqiao": "15:47",
       "taipei": "15:57",
-      "Nangang": "16:05",
+      "nangang": "16:05",
       "Applicable Trains": "-"
     },
     {
@@ -864,7 +864,7 @@
       "taoyuan": "16:20",
       "banqiao": "16:32",
       "taipei": "16:42",
-      "Nangang": "16:50",
+      "nangang": "16:50",
       "Applicable Trains": ""
     },
     {
@@ -881,7 +881,7 @@
       "taoyuan": "-",
       "banqiao": "16:21",
       "taipei": "16:31",
-      "Nangang": "16:40",
+      "nangang": "16:40",
       "Applicable Trains": ""
     },
     {
@@ -898,11 +898,11 @@
       "taoyuan": "16:38",
       "banqiao": "16:51",
       "taipei": "17:02",
-      "Nangang": "17:10",
+      "nangang": "17:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1238,
       "zuoying": "15:15",
       "tainan": "15:28",
@@ -915,7 +915,7 @@
       "taoyuan": "-",
       "banqiao": "16:47",
       "taipei": "16:57",
-      "Nangang": "17:05",
+      "nangang": "17:05",
       "Applicable Trains": "-"
     },
     {
@@ -932,11 +932,11 @@
       "taoyuan": "17:20",
       "banqiao": "17:32",
       "taipei": "17:42",
-      "Nangang": "17:50",
+      "nangang": "17:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1658,
       "zuoying": "15:35",
       "tainan": "15:48",
@@ -949,7 +949,7 @@
       "taoyuan": "17:11",
       "banqiao": "17:25",
       "taipei": "17:36",
-      "Nangang": "17:45",
+      "nangang": "17:45",
       "Applicable Trains": "-"
     },
     {
@@ -966,7 +966,7 @@
       "taoyuan": "-",
       "banqiao": "17:21",
       "taipei": "17:31",
-      "Nangang": "17:40",
+      "nangang": "17:40",
       "Applicable Trains": ""
     },
     {
@@ -983,7 +983,7 @@
       "taoyuan": "17:38",
       "banqiao": "17:51",
       "taipei": "18:02",
-      "Nangang": "18:10",
+      "nangang": "18:10",
       "Applicable Trains": ""
     },
     {
@@ -1000,7 +1000,7 @@
       "taoyuan": "-",
       "banqiao": "17:47",
       "taipei": "17:57",
-      "Nangang": "18:05",
+      "nangang": "18:05",
       "Applicable Trains": ""
     },
     {
@@ -1017,7 +1017,7 @@
       "taoyuan": "18:20",
       "banqiao": "18:32",
       "taipei": "18:42",
-      "Nangang": "18:50",
+      "nangang": "18:50",
       "Applicable Trains": ""
     },
     {
@@ -1034,7 +1034,7 @@
       "taoyuan": "18:11",
       "banqiao": "18:25",
       "taipei": "18:36",
-      "Nangang": "18:45",
+      "nangang": "18:45",
       "Applicable Trains": ""
     },
     {
@@ -1051,7 +1051,7 @@
       "taoyuan": "-",
       "banqiao": "18:21",
       "taipei": "18:31",
-      "Nangang": "18:40",
+      "nangang": "18:40",
       "Applicable Trains": ""
     },
     {
@@ -1068,11 +1068,11 @@
       "taoyuan": "18:38",
       "banqiao": "18:51",
       "taipei": "19:02",
-      "Nangang": "19:10",
+      "nangang": "19:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1246,
       "zuoying": "17:15",
       "tainan": "17:28",
@@ -1085,7 +1085,7 @@
       "taoyuan": "-",
       "banqiao": "18:47",
       "taipei": "18:57",
-      "Nangang": "19:05",
+      "nangang": "19:05",
       "Applicable Trains": "-"
     },
     {
@@ -1102,11 +1102,11 @@
       "taoyuan": "19:20",
       "banqiao": "19:32",
       "taipei": "19:42",
-      "Nangang": "19:50",
+      "nangang": "19:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1670,
       "zuoying": "17:35",
       "tainan": "17:48",
@@ -1119,7 +1119,7 @@
       "taoyuan": "19:11",
       "banqiao": "19:25",
       "taipei": "19:36",
-      "Nangang": "19:45",
+      "nangang": "19:45",
       "Applicable Trains": "-"
     },
     {
@@ -1136,7 +1136,7 @@
       "taoyuan": "-",
       "banqiao": "19:21",
       "taipei": "19:31",
-      "Nangang": "19:40",
+      "nangang": "19:40",
       "Applicable Trains": ""
     },
     {
@@ -1153,11 +1153,11 @@
       "taoyuan": "19:38",
       "banqiao": "19:51",
       "taipei": "20:02",
-      "Nangang": "20:10",
+      "nangang": "20:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1250,
       "zuoying": "18:15",
       "tainan": "18:28",
@@ -1170,7 +1170,7 @@
       "taoyuan": "-",
       "banqiao": "19:47",
       "taipei": "19:57",
-      "Nangang": "20:05",
+      "nangang": "20:05",
       "Applicable Trains": "-"
     },
     {
@@ -1187,7 +1187,7 @@
       "taoyuan": "20:20",
       "banqiao": "20:32",
       "taipei": "20:42",
-      "Nangang": "20:50",
+      "nangang": "20:50",
       "Applicable Trains": ""
     },
     {
@@ -1204,7 +1204,7 @@
       "taoyuan": "20:11",
       "banqiao": "20:25",
       "taipei": "20:36",
-      "Nangang": "20:45",
+      "nangang": "20:45",
       "Applicable Trains": ""
     },
     {
@@ -1221,7 +1221,7 @@
       "taoyuan": "-",
       "banqiao": "20:21",
       "taipei": "20:31",
-      "Nangang": "20:40",
+      "nangang": "20:40",
       "Applicable Trains": ""
     },
     {
@@ -1238,11 +1238,11 @@
       "taoyuan": "20:38",
       "banqiao": "20:51",
       "taipei": "21:02",
-      "Nangang": "21:10",
+      "nangang": "21:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1254,
       "zuoying": "19:15",
       "tainan": "19:28",
@@ -1255,7 +1255,7 @@
       "taoyuan": "-",
       "banqiao": "20:47",
       "taipei": "20:57",
-      "Nangang": "21:05",
+      "nangang": "21:05",
       "Applicable Trains": "-"
     },
     {
@@ -1272,11 +1272,11 @@
       "taoyuan": "21:20",
       "banqiao": "21:32",
       "taipei": "21:42",
-      "Nangang": "21:50",
+      "nangang": "21:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1682,
       "zuoying": "19:35",
       "tainan": "19:48",
@@ -1289,7 +1289,7 @@
       "taoyuan": "21:11",
       "banqiao": "21:25",
       "taipei": "21:36",
-      "Nangang": "21:45",
+      "nangang": "21:45",
       "Applicable Trains": "-"
     },
     {
@@ -1306,7 +1306,7 @@
       "taoyuan": "-",
       "banqiao": "21:21",
       "taipei": "21:31",
-      "Nangang": "21:40",
+      "nangang": "21:40",
       "Applicable Trains": ""
     },
     {
@@ -1323,11 +1323,11 @@
       "taoyuan": "21:38",
       "banqiao": "21:51",
       "taipei": "22:02",
-      "Nangang": "22:10",
+      "nangang": "22:10",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1258,
       "zuoying": "20:15",
       "tainan": "20:28",
@@ -1340,7 +1340,7 @@
       "taoyuan": "-",
       "banqiao": "21:47",
       "taipei": "21:57",
-      "Nangang": "22:05",
+      "nangang": "22:05",
       "Applicable Trains": "-"
     },
     {
@@ -1357,11 +1357,11 @@
       "taoyuan": "22:20",
       "banqiao": "22:32",
       "taipei": "22:42",
-      "Nangang": "22:50",
+      "nangang": "22:50",
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1688,
       "zuoying": "20:35",
       "tainan": "20:48",
@@ -1374,7 +1374,7 @@
       "taoyuan": "22:11",
       "banqiao": "22:25",
       "taipei": "22:36",
-      "Nangang": "22:45",
+      "nangang": "22:45",
       "Applicable Trains": "-"
     },
     {
@@ -1391,7 +1391,7 @@
       "taoyuan": "-",
       "banqiao": "22:21",
       "taipei": "22:31",
-      "Nangang": "22:40",
+      "nangang": "22:40",
       "Applicable Trains": ""
     },
     {
@@ -1408,7 +1408,7 @@
       "taoyuan": "22:43",
       "banqiao": "22:56",
       "taipei": "23:07",
-      "Nangang": "23:15",
+      "nangang": "23:15",
       "Applicable Trains": ""
     },
     {
@@ -1425,11 +1425,11 @@
       "taoyuan": "23:25",
       "banqiao": "23:37",
       "taipei": "23:47",
-      "Nangang": "23:55",
+      "nangang": "23:55",
       "Applicable Trains": ""
     },
     {
-      "operate": "Sun",
+      "operate": "sun",
       "train": 1264,
       "zuoying": "21:40",
       "tainan": "21:53",
@@ -1442,7 +1442,7 @@
       "taoyuan": "-",
       "banqiao": "23:11",
       "taipei": "23:21",
-      "Nangang": "23:30",
+      "nangang": "23:30",
       "Applicable Trains": "-"
     },
     {
@@ -1459,7 +1459,7 @@
       "taoyuan": "23:40",
       "banqiao": "23:52",
       "taipei": "23:59",
-      "Nangang": "-",
+      "nangang": "-",
       "Applicable Trains": ""
     },
     {
@@ -1476,7 +1476,7 @@
       "taoyuan": "-",
       "banqiao": "23:42",
       "taipei": "23:52",
-      "Nangang": "23:59",
+      "nangang": "23:59",
       "Applicable Trains": ""
     },
     {
@@ -1493,7 +1493,7 @@
       "taoyuan": "-",
       "banqiao": "-",
       "taipei": "-",
-      "Nangang": "-",
+      "nangang": "-",
       "Applicable Trains": ""
     }
   ],
@@ -1501,7 +1501,7 @@
     {
       "operate": "",
       "train": 583,
-      "Nangang": "-",
+      "nangang": "-",
       "taipei": "-",
       "banqiao": "-",
       "taoyuan": "-",
@@ -1518,7 +1518,7 @@
     {
       "operate": "",
       "train": 203,
-      "Nangang": "-",
+      "nangang": "-",
       "taipei": "06:30",
       "banqiao": "06:38",
       "taoyuan": "-",
@@ -1535,7 +1535,7 @@
     {
       "operate": "",
       "train": 803,
-      "Nangang": "06:15",
+      "nangang": "06:15",
       "taipei": "06:26",
       "banqiao": "06:34",
       "taoyuan": "06:49",
@@ -1552,7 +1552,7 @@
     {
       "operate": "",
       "train": 603,
-      "Nangang": "06:40",
+      "nangang": "06:40",
       "taipei": "06:51",
       "banqiao": "07:00",
       "taoyuan": "07:15",
@@ -1569,7 +1569,7 @@
     {
       "operate": "",
       "train": 805,
-      "Nangang": "07:00",
+      "nangang": "07:00",
       "taipei": "07:11",
       "banqiao": "07:19",
       "taoyuan": "07:34",
@@ -1586,7 +1586,7 @@
     {
       "operate": "",
       "train": 109,
-      "Nangang": "07:20",
+      "nangang": "07:20",
       "taipei": "07:31",
       "banqiao": "07:39",
       "taoyuan": "-",
@@ -1601,9 +1601,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "thursday,friday,saturday,monday,tuesday,wednesday",
+      "operate": "thu,fri,sat,mon,tue,wed",
       "train": 1505,
-      "Nangang": "07:25",
+      "nangang": "07:25",
       "taipei": "07:36",
       "banqiao": "07:46",
       "taoyuan": "08:01",
@@ -1620,7 +1620,7 @@
     {
       "operate": "",
       "train": 609,
-      "Nangang": "07:35",
+      "nangang": "07:35",
       "taipei": "07:46",
       "banqiao": "07:55",
       "taoyuan": "08:10",
@@ -1637,7 +1637,7 @@
     {
       "operate": "",
       "train": 205,
-      "Nangang": "07:40",
+      "nangang": "07:40",
       "taipei": "07:51",
       "banqiao": "07:59",
       "taoyuan": "-",
@@ -1654,7 +1654,7 @@
     {
       "operate": "",
       "train": 809,
-      "Nangang": "08:00",
+      "nangang": "08:00",
       "taipei": "08:11",
       "banqiao": "08:19",
       "taoyuan": "08:34",
@@ -1671,7 +1671,7 @@
     {
       "operate": "",
       "train": 613,
-      "Nangang": "08:10",
+      "nangang": "08:10",
       "taipei": "08:21",
       "banqiao": "08:29",
       "taoyuan": "08:43",
@@ -1688,7 +1688,7 @@
     {
       "operate": "",
       "train": 113,
-      "Nangang": "08:20",
+      "nangang": "08:20",
       "taipei": "08:31",
       "banqiao": "08:39",
       "taoyuan": "-",
@@ -1705,7 +1705,7 @@
     {
       "operate": "",
       "train": 615,
-      "Nangang": "08:35",
+      "nangang": "08:35",
       "taipei": "08:46",
       "banqiao": "08:55",
       "taoyuan": "09:10",
@@ -1720,9 +1720,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat",
+      "operate": "sat",
       "train": 1209,
-      "Nangang": "08:40",
+      "nangang": "08:40",
       "taipei": "08:51",
       "banqiao": "08:59",
       "taoyuan": "-",
@@ -1739,7 +1739,7 @@
     {
       "operate": "",
       "train": 813,
-      "Nangang": "09:00",
+      "nangang": "09:00",
       "taipei": "09:11",
       "banqiao": "09:19",
       "taoyuan": "09:34",
@@ -1756,7 +1756,7 @@
     {
       "operate": "",
       "train": 619,
-      "Nangang": "09:10",
+      "nangang": "09:10",
       "taipei": "09:21",
       "banqiao": "09:29",
       "taoyuan": "09:43",
@@ -1773,7 +1773,7 @@
     {
       "operate": "",
       "train": 117,
-      "Nangang": "09:20",
+      "nangang": "09:20",
       "taipei": "09:31",
       "banqiao": "09:39",
       "taoyuan": "-",
@@ -1788,9 +1788,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat",
+      "operate": "sat",
       "train": 1513,
-      "Nangang": "09:25",
+      "nangang": "09:25",
       "taipei": "09:36",
       "banqiao": "09:46",
       "taoyuan": "10:01",
@@ -1807,7 +1807,7 @@
     {
       "operate": "",
       "train": 621,
-      "Nangang": "09:35",
+      "nangang": "09:35",
       "taipei": "09:46",
       "banqiao": "09:55",
       "taoyuan": "10:10",
@@ -1822,9 +1822,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat",
+      "operate": "sat",
       "train": 1213,
-      "Nangang": "09:40",
+      "nangang": "09:40",
       "taipei": "09:51",
       "banqiao": "09:59",
       "taoyuan": "-",
@@ -1841,7 +1841,7 @@
     {
       "operate": "",
       "train": 817,
-      "Nangang": "10:00",
+      "nangang": "10:00",
       "taipei": "10:11",
       "banqiao": "10:19",
       "taoyuan": "10:34",
@@ -1858,7 +1858,7 @@
     {
       "operate": "",
       "train": 625,
-      "Nangang": "10:10",
+      "nangang": "10:10",
       "taipei": "10:21",
       "banqiao": "10:29",
       "taoyuan": "10:43",
@@ -1875,7 +1875,7 @@
     {
       "operate": "",
       "train": 121,
-      "Nangang": "10:20",
+      "nangang": "10:20",
       "taipei": "10:31",
       "banqiao": "10:39",
       "taoyuan": "-",
@@ -1892,7 +1892,7 @@
     {
       "operate": "",
       "train": 627,
-      "Nangang": "10:35",
+      "nangang": "10:35",
       "taipei": "10:46",
       "banqiao": "10:55",
       "taoyuan": "11:10",
@@ -1907,9 +1907,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat",
+      "operate": "sat",
       "train": 1217,
-      "Nangang": "10:40",
+      "nangang": "10:40",
       "taipei": "10:51",
       "banqiao": "10:59",
       "taoyuan": "-",
@@ -1926,7 +1926,7 @@
     {
       "operate": "",
       "train": 821,
-      "Nangang": "11:00",
+      "nangang": "11:00",
       "taipei": "11:11",
       "banqiao": "11:19",
       "taoyuan": "11:34",
@@ -1943,7 +1943,7 @@
     {
       "operate": "",
       "train": 125,
-      "Nangang": "11:20",
+      "nangang": "11:20",
       "taipei": "11:31",
       "banqiao": "11:39",
       "taoyuan": "-",
@@ -1960,7 +1960,7 @@
     {
       "operate": "",
       "train": 633,
-      "Nangang": "11:35",
+      "nangang": "11:35",
       "taipei": "11:46",
       "banqiao": "11:55",
       "taoyuan": "12:10",
@@ -1977,7 +1977,7 @@
     {
       "operate": "",
       "train": 825,
-      "Nangang": "12:00",
+      "nangang": "12:00",
       "taipei": "12:11",
       "banqiao": "12:19",
       "taoyuan": "12:34",
@@ -1992,9 +1992,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri",
+      "operate": "fri",
       "train": 1637,
-      "Nangang": "12:10",
+      "nangang": "12:10",
       "taipei": "12:21",
       "banqiao": "12:29",
       "taoyuan": "12:43",
@@ -2011,7 +2011,7 @@
     {
       "operate": "",
       "train": 129,
-      "Nangang": "12:20",
+      "nangang": "12:20",
       "taipei": "12:31",
       "banqiao": "12:39",
       "taoyuan": "-",
@@ -2028,7 +2028,7 @@
     {
       "operate": "",
       "train": 639,
-      "Nangang": "12:35",
+      "nangang": "12:35",
       "taipei": "12:46",
       "banqiao": "12:55",
       "taoyuan": "13:10",
@@ -2045,7 +2045,7 @@
     {
       "operate": "",
       "train": 829,
-      "Nangang": "13:00",
+      "nangang": "13:00",
       "taipei": "13:11",
       "banqiao": "13:19",
       "taoyuan": "13:34",
@@ -2060,9 +2060,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Sat,sunday",
+      "operate": "sat,sun",
       "train": 1643,
-      "Nangang": "13:10",
+      "nangang": "13:10",
       "taipei": "13:21",
       "banqiao": "13:29",
       "taoyuan": "13:43",
@@ -2079,7 +2079,7 @@
     {
       "operate": "",
       "train": 133,
-      "Nangang": "13:20",
+      "nangang": "13:20",
       "taipei": "13:31",
       "banqiao": "13:39",
       "taoyuan": "-",
@@ -2096,7 +2096,7 @@
     {
       "operate": "",
       "train": 645,
-      "Nangang": "13:35",
+      "nangang": "13:35",
       "taipei": "13:46",
       "banqiao": "13:55",
       "taoyuan": "14:10",
@@ -2113,7 +2113,7 @@
     {
       "operate": "",
       "train": 833,
-      "Nangang": "14:00",
+      "nangang": "14:00",
       "taipei": "14:11",
       "banqiao": "14:19",
       "taoyuan": "14:34",
@@ -2128,9 +2128,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1649,
-      "Nangang": "14:10",
+      "nangang": "14:10",
       "taipei": "14:21",
       "banqiao": "14:29",
       "taoyuan": "14:43",
@@ -2147,7 +2147,7 @@
     {
       "operate": "",
       "train": 137,
-      "Nangang": "14:20",
+      "nangang": "14:20",
       "taipei": "14:31",
       "banqiao": "14:39",
       "taoyuan": "-",
@@ -2164,7 +2164,7 @@
     {
       "operate": "",
       "train": 651,
-      "Nangang": "14:35",
+      "nangang": "14:35",
       "taipei": "14:46",
       "banqiao": "14:55",
       "taoyuan": "15:10",
@@ -2181,7 +2181,7 @@
     {
       "operate": "",
       "train": 837,
-      "Nangang": "15:00",
+      "nangang": "15:00",
       "taipei": "15:11",
       "banqiao": "15:19",
       "taoyuan": "15:34",
@@ -2196,9 +2196,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1655,
-      "Nangang": "15:10",
+      "nangang": "15:10",
       "taipei": "15:21",
       "banqiao": "15:29",
       "taoyuan": "15:43",
@@ -2215,7 +2215,7 @@
     {
       "operate": "",
       "train": 141,
-      "Nangang": "15:20",
+      "nangang": "15:20",
       "taipei": "15:31",
       "banqiao": "15:39",
       "taoyuan": "-",
@@ -2232,7 +2232,7 @@
     {
       "operate": "",
       "train": 657,
-      "Nangang": "15:35",
+      "nangang": "15:35",
       "taipei": "15:46",
       "banqiao": "15:55",
       "taoyuan": "16:10",
@@ -2247,9 +2247,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1237,
-      "Nangang": "15:40",
+      "nangang": "15:40",
       "taipei": "15:51",
       "banqiao": "15:59",
       "taoyuan": "-",
@@ -2266,7 +2266,7 @@
     {
       "operate": "",
       "train": 841,
-      "Nangang": "16:00",
+      "nangang": "16:00",
       "taipei": "16:11",
       "banqiao": "16:19",
       "taoyuan": "16:34",
@@ -2283,7 +2283,7 @@
     {
       "operate": "",
       "train": 661,
-      "Nangang": "16:10",
+      "nangang": "16:10",
       "taipei": "16:21",
       "banqiao": "16:29",
       "taoyuan": "16:43",
@@ -2300,7 +2300,7 @@
     {
       "operate": "",
       "train": 145,
-      "Nangang": "16:20",
+      "nangang": "16:20",
       "taipei": "16:31",
       "banqiao": "16:39",
       "taoyuan": "-",
@@ -2315,9 +2315,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri",
+      "operate": "fri",
       "train": 1541,
-      "Nangang": "16:25",
+      "nangang": "16:25",
       "taipei": "16:36",
       "banqiao": "16:46",
       "taoyuan": "17:01",
@@ -2334,7 +2334,7 @@
     {
       "operate": "",
       "train": 663,
-      "Nangang": "16:35",
+      "nangang": "16:35",
       "taipei": "16:46",
       "banqiao": "16:55",
       "taoyuan": "17:10",
@@ -2349,9 +2349,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1241,
-      "Nangang": "16:40",
+      "nangang": "16:40",
       "taipei": "16:51",
       "banqiao": "16:59",
       "taoyuan": "-",
@@ -2368,7 +2368,7 @@
     {
       "operate": "",
       "train": 845,
-      "Nangang": "17:00",
+      "nangang": "17:00",
       "taipei": "17:11",
       "banqiao": "17:19",
       "taoyuan": "17:34",
@@ -2385,7 +2385,7 @@
     {
       "operate": "",
       "train": 667,
-      "Nangang": "17:10",
+      "nangang": "17:10",
       "taipei": "17:21",
       "banqiao": "17:29",
       "taoyuan": "17:43",
@@ -2402,7 +2402,7 @@
     {
       "operate": "",
       "train": 149,
-      "Nangang": "17:20",
+      "nangang": "17:20",
       "taipei": "17:31",
       "banqiao": "17:39",
       "taoyuan": "-",
@@ -2417,9 +2417,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri",
+      "operate": "fri",
       "train": 1545,
-      "Nangang": "17:25",
+      "nangang": "17:25",
       "taipei": "17:36",
       "banqiao": "17:46",
       "taoyuan": "18:01",
@@ -2436,7 +2436,7 @@
     {
       "operate": "",
       "train": 669,
-      "Nangang": "17:35",
+      "nangang": "17:35",
       "taipei": "17:46",
       "banqiao": "17:55",
       "taoyuan": "18:10",
@@ -2451,9 +2451,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1245,
-      "Nangang": "17:40",
+      "nangang": "17:40",
       "taipei": "17:51",
       "banqiao": "17:59",
       "taoyuan": "-",
@@ -2470,7 +2470,7 @@
     {
       "operate": "",
       "train": 849,
-      "Nangang": "18:00",
+      "nangang": "18:00",
       "taipei": "18:11",
       "banqiao": "18:19",
       "taoyuan": "18:34",
@@ -2487,7 +2487,7 @@
     {
       "operate": "",
       "train": 673,
-      "Nangang": "18:10",
+      "nangang": "18:10",
       "taipei": "18:21",
       "banqiao": "18:29",
       "taoyuan": "18:43",
@@ -2504,7 +2504,7 @@
     {
       "operate": "",
       "train": 153,
-      "Nangang": "18:20",
+      "nangang": "18:20",
       "taipei": "18:31",
       "banqiao": "18:39",
       "taoyuan": "-",
@@ -2519,9 +2519,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1549,
-      "Nangang": "18:25",
+      "nangang": "18:25",
       "taipei": "18:36",
       "banqiao": "18:46",
       "taoyuan": "19:01",
@@ -2538,7 +2538,7 @@
     {
       "operate": "",
       "train": 675,
-      "Nangang": "18:35",
+      "nangang": "18:35",
       "taipei": "18:46",
       "banqiao": "18:55",
       "taoyuan": "19:10",
@@ -2555,7 +2555,7 @@
     {
       "operate": "",
       "train": 249,
-      "Nangang": "18:40",
+      "nangang": "18:40",
       "taipei": "18:51",
       "banqiao": "18:59",
       "taoyuan": "-",
@@ -2572,7 +2572,7 @@
     {
       "operate": "",
       "train": 853,
-      "Nangang": "19:00",
+      "nangang": "19:00",
       "taipei": "19:11",
       "banqiao": "19:19",
       "taoyuan": "19:34",
@@ -2587,9 +2587,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1679,
-      "Nangang": "19:10",
+      "nangang": "19:10",
       "taipei": "19:21",
       "banqiao": "19:29",
       "taoyuan": "19:43",
@@ -2606,7 +2606,7 @@
     {
       "operate": "",
       "train": 157,
-      "Nangang": "19:20",
+      "nangang": "19:20",
       "taipei": "19:31",
       "banqiao": "19:39",
       "taoyuan": "-",
@@ -2621,9 +2621,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1553,
-      "Nangang": "19:25",
+      "nangang": "19:25",
       "taipei": "19:36",
       "banqiao": "19:46",
       "taoyuan": "20:01",
@@ -2640,7 +2640,7 @@
     {
       "operate": "",
       "train": 681,
-      "Nangang": "19:35",
+      "nangang": "19:35",
       "taipei": "19:46",
       "banqiao": "19:55",
       "taoyuan": "20:10",
@@ -2655,9 +2655,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1253,
-      "Nangang": "19:40",
+      "nangang": "19:40",
       "taipei": "19:51",
       "banqiao": "19:59",
       "taoyuan": "-",
@@ -2674,7 +2674,7 @@
     {
       "operate": "",
       "train": 857,
-      "Nangang": "20:00",
+      "nangang": "20:00",
       "taipei": "20:11",
       "banqiao": "20:19",
       "taoyuan": "20:34",
@@ -2689,9 +2689,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sat,Sun",
+      "operate": "fri,sat,sun",
       "train": 1685,
-      "Nangang": "20:10",
+      "nangang": "20:10",
       "taipei": "20:21",
       "banqiao": "20:29",
       "taoyuan": "20:43",
@@ -2708,7 +2708,7 @@
     {
       "operate": "",
       "train": 161,
-      "Nangang": "20:20",
+      "nangang": "20:20",
       "taipei": "20:31",
       "banqiao": "20:39",
       "taoyuan": "-",
@@ -2723,9 +2723,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri",
+      "operate": "fri",
       "train": 1557,
-      "Nangang": "20:25",
+      "nangang": "20:25",
       "taipei": "20:36",
       "banqiao": "20:46",
       "taoyuan": "21:01",
@@ -2742,7 +2742,7 @@
     {
       "operate": "",
       "train": 687,
-      "Nangang": "20:35",
+      "nangang": "20:35",
       "taipei": "20:46",
       "banqiao": "20:55",
       "taoyuan": "21:10",
@@ -2757,9 +2757,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1257,
-      "Nangang": "20:40",
+      "nangang": "20:40",
       "taipei": "20:51",
       "banqiao": "20:59",
       "taoyuan": "-",
@@ -2776,7 +2776,7 @@
     {
       "operate": "",
       "train": 861,
-      "Nangang": "21:00",
+      "nangang": "21:00",
       "taipei": "21:11",
       "banqiao": "21:19",
       "taoyuan": "21:34",
@@ -2793,7 +2793,7 @@
     {
       "operate": "",
       "train": 165,
-      "Nangang": "21:20",
+      "nangang": "21:20",
       "taipei": "21:31",
       "banqiao": "21:39",
       "taoyuan": "-",
@@ -2810,7 +2810,7 @@
     {
       "operate": "",
       "train": 693,
-      "Nangang": "21:30",
+      "nangang": "21:30",
       "taipei": "21:41",
       "banqiao": "21:50",
       "taoyuan": "22:05",
@@ -2827,7 +2827,7 @@
     {
       "operate": "",
       "train": 333,
-      "Nangang": "21:45",
+      "nangang": "21:45",
       "taipei": "21:56",
       "banqiao": "-",
       "taoyuan": "22:15",
@@ -2842,9 +2842,9 @@
       "Applicable Trains": ""
     },
     {
-      "operate": "Fri,Sun",
+      "operate": "fri,sun",
       "train": 1563,
-      "Nangang": "21:55",
+      "nangang": "21:55",
       "taipei": "22:05",
       "banqiao": "22:14",
       "taoyuan": "22:27",
@@ -2861,7 +2861,7 @@
     {
       "operate": "",
       "train": 295,
-      "Nangang": "22:05",
+      "nangang": "22:05",
       "taipei": "22:16",
       "banqiao": "-",
       "taoyuan": "22:35",
@@ -2878,7 +2878,7 @@
     {
       "operate": "",
       "train": 565,
-      "Nangang": "22:15",
+      "nangang": "22:15",
       "taipei": "22:26",
       "banqiao": "22:35",
       "taoyuan": "22:48",
@@ -2895,7 +2895,7 @@
     {
       "operate": "",
       "train": 567,
-      "Nangang": "22:50",
+      "nangang": "22:50",
       "taipei": "23:00",
       "banqiao": "23:08",
       "taoyuan": "23:21",
@@ -2975,5 +2975,6 @@
         "no": "12"
       }
     ]
-  }
+  },
+  "version": 2
 }

@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		62BF5F5AC15C4CF928AC8FB7 /* libPods-wTHSR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1789070DCC4E3C72FE53CBB9 /* libPods-wTHSR.a */; };
+		A102060D1D2D1F0C00E3C23E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A10206071D2D1F0C00E3C23E /* data.json */; };
 		A12D2E3E1C16B73200BE547D /* MMProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A12D2E3B1C16B73200BE547D /* MMProperty.m */; };
 		A12D2E3F1C16B73200BE547D /* UIColor-MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A12D2E3D1C16B73200BE547D /* UIColor-MoreColors.m */; };
 		A13053301C1D686C00D351D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A130532B1C1D686C00D351D4 /* Localizable.strings */; };
+		A136702C1D3BB4C300F18E9B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A136702B1D3BB4C300F18E9B /* WebViewController.m */; };
+		A136702E1D3BB65000F18E9B /* icon83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A136702D1D3BB65000F18E9B /* icon83.5@2x.png */; };
 		A1545FE71C0E029A00692BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1545FE61C0E029A00692BAD /* main.m */; };
 		A1545FEA1C0E029A00692BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1545FE91C0E029A00692BAD /* AppDelegate.m */; };
 		A1545FF21C0E029A00692BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1545FF11C0E029A00692BAD /* Assets.xcassets */; };
@@ -25,9 +28,7 @@
 		A15464CB1C0E040300692BAD /* libsnappy-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15463821C0E040200692BAD /* libsnappy-ios.a */; };
 		A15464CC1C0E040300692BAD /* libssdb-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15463831C0E040200692BAD /* libssdb-ios.a */; };
 		A15464CD1C0E040300692BAD /* libutil-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15463841C0E040200692BAD /* libutil-ios.a */; };
-		A18D52041C0EC2FD00A2BD9B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A18D52001C0EC2FD00A2BD9B /* data.json */; };
 		A18D520A1C0EC53D00A2BD9B /* MySSDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = A18D52091C0EC53D00A2BD9B /* MySSDB.mm */; };
-		A18D520E1C0EE49800A2BD9B /* station.json in Resources */ = {isa = PBXBuildFile; fileRef = A18D520D1C0EE49800A2BD9B /* station.json */; };
 		A1A537DA1C1D562900144069 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A537D61C1D562900144069 /* icon57.png */; };
 		A1A537DB1C1D562900144069 /* icon57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A537D71C1D562900144069 /* icon57@2x.png */; };
 		A1A537DC1C1D562900144069 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A537D81C1D562900144069 /* icon72.png */; };
@@ -52,15 +53,19 @@
 		1789070DCC4E3C72FE53CBB9 /* libPods-wTHSR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wTHSR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5896F430EC55E58F5B621D96 /* Pods-wTHSR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wTHSR.release.xcconfig"; path = "Pods/Target Support Files/Pods-wTHSR/Pods-wTHSR.release.xcconfig"; sourceTree = "<group>"; };
 		81A0C6BDC61F004F507503A3 /* Pods-wTHSR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wTHSR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wTHSR/Pods-wTHSR.debug.xcconfig"; sourceTree = "<group>"; };
+		A10206071D2D1F0C00E3C23E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A102060C1D2D1F0C00E3C23E /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
 		A12D2E3A1C16B73200BE547D /* MMProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProperty.h; sourceTree = "<group>"; };
 		A12D2E3B1C16B73200BE547D /* MMProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProperty.m; sourceTree = "<group>"; };
 		A12D2E3C1C16B73200BE547D /* UIColor-MoreColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-MoreColors.h"; sourceTree = "<group>"; };
 		A12D2E3D1C16B73200BE547D /* UIColor-MoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-MoreColors.m"; sourceTree = "<group>"; };
-		A12D2E401C16BA3800BE547D /* update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
 		A130532C1C1D686C00D351D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A130532D1C1D686C00D351D4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A130532E1C1D686C00D351D4 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A130532F1C1D686C00D351D4 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = zh_Hant.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A136702A1D3BB4C300F18E9B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A136702B1D3BB4C300F18E9B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		A136702D1D3BB65000F18E9B /* icon83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon83.5@2x.png"; sourceTree = "<group>"; };
 		A1545FE21C0E029A00692BAD /* wTHSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wTHSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1545FE61C0E029A00692BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1545FE81C0E029A00692BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,10 +89,8 @@
 		A15463821C0E040200692BAD /* libsnappy-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsnappy-ios.a"; sourceTree = "<group>"; };
 		A15463831C0E040200692BAD /* libssdb-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libssdb-ios.a"; sourceTree = "<group>"; };
 		A15463841C0E040200692BAD /* libutil-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libutil-ios.a"; sourceTree = "<group>"; };
-		A18D52001C0EC2FD00A2BD9B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		A18D52081C0EC53D00A2BD9B /* MySSDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySSDB.h; sourceTree = "<group>"; };
 		A18D52091C0EC53D00A2BD9B /* MySSDB.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySSDB.mm; sourceTree = "<group>"; };
-		A18D520D1C0EE49800A2BD9B /* station.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = station.json; sourceTree = "<group>"; };
 		A1A537D61C1D562900144069 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
 		A1A537D71C1D562900144069 /* icon57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon57@2x.png"; sourceTree = "<group>"; };
 		A1A537D81C1D562900144069 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
@@ -124,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10206061D2D1F0C00E3C23E /* 201607 */ = {
+			isa = PBXGroup;
+			children = (
+				A10206071D2D1F0C00E3C23E /* data.json */,
+				A102060C1D2D1F0C00E3C23E /* update.json */,
+			);
+			path = 201607;
+			sourceTree = "<group>";
+		};
 		A130532A1C1D686C00D351D4 /* l18n */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,14 +169,15 @@
 		A1545FE41C0E029A00692BAD /* wTHSR */ = {
 			isa = PBXGroup;
 			children = (
-				A130532A1C1D686C00D351D4 /* l18n */,
+				A1545FE81C0E029A00692BAD /* AppDelegate.h */,
+				A1545FE91C0E029A00692BAD /* AppDelegate.m */,
+				A15460011C0E034B00692BAD /* Controllers */,
 				A1A537D61C1D562900144069 /* icon57.png */,
 				A1A537D71C1D562900144069 /* icon57@2x.png */,
 				A1A537D81C1D562900144069 /* icon72.png */,
 				A1A537D91C1D562900144069 /* icon72@2x.png */,
-				A1545FE81C0E029A00692BAD /* AppDelegate.h */,
-				A1545FE91C0E029A00692BAD /* AppDelegate.m */,
-				A15460011C0E034B00692BAD /* Controllers */,
+				A136702D1D3BB65000F18E9B /* icon83.5@2x.png */,
+				A130532A1C1D686C00D351D4 /* l18n */,
 				A1545FFC1C0E034B00692BAD /* Models */,
 				A1545FE51C0E029A00692BAD /* Supporting Files */,
 			);
@@ -197,6 +210,8 @@
 		A15460011C0E034B00692BAD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A136702A1D3BB4C300F18E9B /* WebViewController.h */,
+				A136702B1D3BB4C300F18E9B /* WebViewController.m */,
 				A15460021C0E034B00692BAD /* THSRSelectViewController.h */,
 				A15460031C0E034B00692BAD /* THSRSelectViewController.m */,
 				A15460041C0E034B00692BAD /* THSRTableViewCell.h */,
@@ -247,9 +262,7 @@
 		A18D51FF1C0EC2FD00A2BD9B /* db */ = {
 			isa = PBXGroup;
 			children = (
-				A12D2E401C16BA3800BE547D /* update.json */,
-				A18D52001C0EC2FD00A2BD9B /* data.json */,
-				A18D520D1C0EE49800A2BD9B /* station.json */,
+				A10206061D2D1F0C00E3C23E /* 201607 */,
 			);
 			path = db;
 			sourceTree = "<group>";
@@ -294,6 +307,7 @@
 				A1545FE01C0E029A00692BAD /* Resources */,
 				0CB3AD675DD661FBB0C76D60 /* Embed Pods Frameworks */,
 				DB26AC862DBCC967A991B77D /* Copy Pods Resources */,
+				A10899961D2CE03000A45361 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -334,7 +348,6 @@
 				TargetAttributes = {
 					A1545FE11C0E029A00692BAD = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = GAJ4CN6BKY;
 					};
 					A1B2F8BA1C1C8915006AD16C = {
 						CreatedOnToolsVersion = 7.1;
@@ -372,15 +385,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A102060D1D2D1F0C00E3C23E /* data.json in Resources */,
 				A1B19E391C2D3C2200589B30 /* Pods-acknowledgements.plist in Resources */,
 				A1A537DD1C1D562900144069 /* icon72@2x.png in Resources */,
 				A13053301C1D686C00D351D4 /* Localizable.strings in Resources */,
 				A1A537DC1C1D562900144069 /* icon72.png in Resources */,
+				A136702E1D3BB65000F18E9B /* icon83.5@2x.png in Resources */,
 				A1545FF51C0E029A00692BAD /* LaunchScreen.storyboard in Resources */,
-				A18D520E1C0EE49800A2BD9B /* station.json in Resources */,
 				A1545FF21C0E029A00692BAD /* Assets.xcassets in Resources */,
 				A1A537DB1C1D562900144069 /* icon57@2x.png in Resources */,
-				A18D52041C0EC2FD00A2BD9B /* data.json in Resources */,
 				A1A537DA1C1D562900144069 /* icon57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +422,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wTHSR/Pods-wTHSR-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A10899961D2CE03000A45361 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$((1*$buildNumber))\nbuildNumber=$(($buildNumber + 1))\nbuildNumber=$(printf \"%d\" $buildNumber)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
 		};
 		DB26AC862DBCC967A991B77D /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -453,6 +479,7 @@
 				A12D2E3E1C16B73200BE547D /* MMProperty.m in Sources */,
 				A154601F1C0E034B00692BAD /* THSRUpdateViewController.m in Sources */,
 				A1B27E1B1C115A0B0055A6CB /* MMssdb.m in Sources */,
+				A136702C1D3BB4C300F18E9B /* WebViewController.m in Sources */,
 				A12D2E3F1C16B73200BE547D /* UIColor-MoreColors.m in Sources */,
 				A1545FEA1C0E029A00692BAD /* AppDelegate.m in Sources */,
 				A154601A1C0E034B00692BAD /* MMThsr.m in Sources */,
@@ -614,7 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libs/ssdb/include";
 				INFOPLIST_FILE = wTHSR/Info.plist;

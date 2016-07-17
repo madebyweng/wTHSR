@@ -24,7 +24,7 @@
 ## Build
 
 ```
-clone or download
+git clone https://github.com/madebyweng/wTHSR.git
 ```
 
 ```
@@ -50,7 +50,7 @@ wTHSR
 -wTHSR.xcworkspace
 ```
 
-* db	目錄：高鐵時刻表 (data.json), 車站資料(station.json), 線上更新範本(update.json)
+* db	目錄：高鐵時刻表+車站資料 (data.json), 線上更新範本(update.json)
 * libs	目錄：第三方資料庫
 * Podfile	檔案：pod 第三方資料庫控制檔案
 * Pods	目錄：由 pod install 後產生資料

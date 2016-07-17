@@ -1,0 +1,1 @@
+THSR,高鐵,時刻表,Timetable,火車,電車,捷運,旅遊,train,Rail

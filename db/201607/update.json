@@ -3,7 +3,7 @@
     "version": "1",
     "hits": [{
              "title": "高鐵時刻表測試版",
-             "url": "https://s3.amazonaws.com/w-e-n-g/201607.data.json",
+             "url": "https://s3.amazonaws.com/w-e-n-g/201607.data.test.json",
              "no": "1",
              "description": "for\n2016 07\nJuly 2016\n2016年7月\n2016 7월"
              }]

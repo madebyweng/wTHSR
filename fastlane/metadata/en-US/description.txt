@@ -1,0 +1,13 @@
+2016/07
+
+wTHSR is a timetable for Taiwan High Speed Rail.
+
+
+wTHSR 台灣高鐵時刻表.
+
+
+依照台灣高鐵官方網站所提供的時刻表修改, 本程式所有的資訊僅供參考之用.
+
+
+Open Source: https://github.com/madebyweng/wTHSR
+Web Site: http://madebyweng.github.io
