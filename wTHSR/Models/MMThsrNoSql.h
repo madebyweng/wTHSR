@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MMThsrSounthbound   @"sounthbound"
+#define MMThsrSouthbound    @"southbound"
 #define MMThsrNorthbound    @"northbound"
 
 @class MMssdb;

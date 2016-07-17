@@ -41,21 +41,48 @@
 
 + (void)createDefaultDataIfNeed
 {
-    NSString *dir = [[MMThsrNoSql docsPath] stringByAppendingPathComponent:@"db"];
-    if ([[NSFileManager defaultManager] fileExistsAtPath:dir] ) {
-        return;
-    }
+    //    NSString *dir = [[MMThsrNoSql docsPath] stringByAppendingPathComponent:@"db"];
+    //    if ([[NSFileManager defaultManager] fileExistsAtPath:dir] ) {
+    //        return;
+    //    }
     
+    MMssdb *db = [[MMThsrNoSql instance] db];
     NSString *p = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"];
     NSString *string = [NSString stringWithContentsOfFile:p encoding:NSUTF8StringEncoding error:nil];
     NSDictionary *json = string.JSONValue;
     
-    NSDictionary *s = json[MMThsrSounthbound];
-    NSDictionary *n = json[MMThsrNorthbound];
+    // version
+    NSNumber *v = json[@"version"];
+    NSString *version = [[MMThsrNoSql instance] dbVersion];
+    if (version && version.intValue < v.intValue) {
+        return;
+    }
     
-    MMssdb *db = [[MMThsrNoSql instance] db];
-    [db set:MMThsrSounthbound string:s.JSONFragment];
-    [db set:MMThsrNorthbound string:n.JSONFragment];
+    if (!v && [version isEqual:@""]) {
+        return;
+    }
+    if (v) {
+        [db set:@"version" string:v.stringValue];
+    }
+    
+    
+    // station
+    NSDictionary *station = json[@"station"];
+    if (station) {
+        [db set:@"station" string:station.JSONFragment];
+    }
+    
+    
+    // timetable
+    NSDictionary *s = json[MMThsrSouthbound];
+    NSDictionary *n = json[MMThsrNorthbound];
+    if (s) {
+        [db set:MMThsrSouthbound string:s.JSONFragment];
+    }
+    if (n) {
+        [db set:MMThsrNorthbound string:n.JSONFragment];
+    }
+    
 }
 
 
@@ -89,22 +116,38 @@
 + (void)updateDataWithDictionary:(NSDictionary *)dict
 {
     MMssdb *db = [[MMThsrNoSql instance] db];
-    NSDictionary *s = dict[MMThsrSounthbound];
+    NSDictionary *s = dict[MMThsrSouthbound];
     NSDictionary *n = dict[MMThsrNorthbound];
-    [db set:MMThsrSounthbound string:s.JSONFragment];
-    [db set:MMThsrNorthbound string:n.JSONFragment];
+    NSDictionary *station = dict[@"station"];
+    if (s) {
+        [db set:MMThsrSouthbound string:s.JSONFragment];
+    }
+    if (n) {
+        [db set:MMThsrNorthbound string:n.JSONFragment];
+    }
+    if (station) {
+        [db set:@"station" string:station.JSONFragment];
+    }
+}
+
+- (NSString *)dbVersion
+{
+    NSString *val = nil;
+    [self.db get:@"version" string:&val];
+    return val;
 }
 
 
 - (NSArray *)sounthbound
 {
     NSString *val = nil;
-    [self.db get:MMThsrSounthbound string:&val];
+    [self.db get:MMThsrSouthbound string:&val];
     
     NSArray *trains = val.JSONValue;
     NSMutableArray *items = [NSMutableArray new];
     for (NSDictionary *item in trains) {
-        MMTrain *t = [MMTrain instanceWithDictionary:item];
+        MMTrain *t = [MMTrain new];
+        t.data = item;
         [items addObject:t];
     }
     
@@ -120,21 +163,21 @@
     
     NSMutableArray *items = [NSMutableArray new];
     for (NSDictionary *item in trains) {
-        MMTrain *t = [MMTrain instanceWithDictionary:item];
+        MMTrain *t = [MMTrain new];
+        t.data = item;
         [items addObject:t];
     }
     
-    return [NSArray arrayWithArray:items];    
+    return [NSArray arrayWithArray:items];
 }
 
 - (NSArray *)stations
 {
-
+    
     if (!self.station) {
-        NSString *p = [[NSBundle mainBundle] pathForResource:@"station" ofType:@"json"];
-        NSString *tmp = [NSString stringWithContentsOfFile:p encoding:NSUTF8StringEncoding error:nil];
-        NSDictionary *dict = tmp.JSONValue;
-        
+        NSString *val = nil;
+        [self.db get:@"station" string:&val];
+        NSDictionary *dict = val.JSONValue;
         self.station = dict;
     }
     

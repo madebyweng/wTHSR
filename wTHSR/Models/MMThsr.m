@@ -11,6 +11,10 @@
 
 @implementation MMTrain
 
+- (NSString *)trainValueForKey:(NSString *)key {
+    return self.data[key];
+}
+
 @end
 
 

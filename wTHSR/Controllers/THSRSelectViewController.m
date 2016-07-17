@@ -13,6 +13,7 @@
 #import "THSRUpdateViewController.h"
 #import <objc/message.h>
 #import "VTAcknowledgementsViewController.h"
+#import "WebViewController.h"
 
 
 #define ROW_HEIGHT 80
@@ -46,20 +47,22 @@
 }
 
 #pragma mark UITableViewDataSource
+#pragma mark UITableViewDataSource
 //游標
 - (UITableViewCellAccessoryType)tableView:(UITableView *)tv accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
 {
-	return UITableViewCellAccessoryDisclosureIndicator;
+    return UITableViewCellAccessoryDisclosureIndicator;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return 2;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	
-	return 5;
+    
+    if (section == 0) return 1;
+    return 5;
 }
 
 
@@ -71,43 +74,56 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-	
-    if (indexPath.row == 4) {
+    
+    if (indexPath.section == 0) {
         cell.accessoryType = UITableViewCellAccessoryNone;
         return cell;
     }
     
     
-	if (indexPath.row == 3){
-        cell.textLabel.text = NSLocalizedString(@"Acknowledgements",@"");
+    if (indexPath.row == 4) {
+        cell.textLabel.text = NSLocalizedString(@"Open Source",@"");
         cell.textLabel.font = [UIFont systemFontOfSize:29];
         cell.textLabel.adjustsFontSizeToFitWidth = YES;
-		return cell;
-	}
-	
-	NSArray *title = @[NSLocalizedString(@"South", @""), NSLocalizedString(@"North", @""), NSLocalizedString(@"Update", @"")];
-	cell.textLabel.text = [title objectAtIndex:indexPath.row];
-	cell.textLabel.font = [UIFont systemFontOfSize:29];
+        return cell;
+    }
+    
+    
+    if (indexPath.row == 3){
+        cell.textLabel.text = NSLocalizedString(@"LICENSE",@"");
+        cell.textLabel.font = [UIFont systemFontOfSize:29];
+        cell.textLabel.adjustsFontSizeToFitWidth = YES;
+        return cell;
+    }
+    
+    NSArray *title = @[NSLocalizedString(@"South", @""), NSLocalizedString(@"North", @""), NSLocalizedString(@"Update", @"")];
+    cell.textLabel.text = [title objectAtIndex:indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:29];
     cell.textLabel.adjustsFontSizeToFitWidth = YES;
-	
-	
-	return cell;
+    
+    
+    return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-	if((indexPath.section == 0) && (indexPath.row == 4)) {
+    if(indexPath.section == 0) {
         return 0;
-		return 50.0; // this is the height of the AdMob ad
-	}
-	
-	return ROW_HEIGHT; // this is the generic cell height
+    }
+    
+    return ROW_HEIGHT; // this is the generic cell height
 }
 
 
 //選擇的項目
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    if (indexPath.section == 0) {
+        return;
+    }
+    
     if (indexPath.row == 4) {
-		return;
+        WebViewController *w = [[WebViewController alloc] initWithNibName:nil bundle:nil];
+        [self.navigationController pushViewController:w animated:YES];
+        return;
     }
     
     if (indexPath.row == 3) {
@@ -116,26 +132,26 @@
         [self.navigationController pushViewController:viewController animated:YES];
         return;
     }
-	
-	if (indexPath.row == 2){
-		THSRUpdateViewController *viewController = [[THSRUpdateViewController alloc] initWithNibName:nil bundle:nil];
-		[self.navigationController pushViewController:viewController animated:YES];
-		return;
-	}
-
-	THSRTimetableViewController *viewController = [[THSRTimetableViewController alloc] initWithStyle:UITableViewStylePlain];
-	
-	if (indexPath.row == 0){
+    
+    if (indexPath.row == 2){
+        THSRUpdateViewController *viewController = [[THSRUpdateViewController alloc] initWithNibName:nil bundle:nil];
+        [self.navigationController pushViewController:viewController animated:YES];
+        return;
+    }
+    
+    THSRTimetableViewController *viewController = [[THSRTimetableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    if (indexPath.row == 0){
         viewController.title = NSLocalizedString(@"Southbound Trains", nil);
-        viewController.key = MMThsrSounthbound;
-	} else {
+        viewController.key = MMThsrSouthbound;
+    } else {
         viewController.title = NSLocalizedString(@"Northbound Trains", nil);
         viewController.key = MMThsrNorthbound;
     }
-	
-
-	[self.navigationController pushViewController:viewController animated:YES];
-
+    
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
 }
 
 // ios <= 6

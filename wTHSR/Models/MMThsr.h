@@ -10,31 +10,11 @@
 #import <UIKit/UIKit.h>
 #import "MMProperty.h"
 
-@interface MMTrain : MMModel
+@interface MMTrain : NSObject
 
+@property (nonatomic, strong) NSDictionary *data;
 
-@property (nonatomic, strong) NSString *operate;
-
-@property (nonatomic, strong) NSString *train;
-@property (nonatomic, strong) NSString *taipei;
-@property (nonatomic, strong) NSString *banqiao;
-@property (nonatomic, strong) NSString *taoyuan;
-@property (nonatomic, strong) NSString *hsinchu;
-@property (nonatomic, strong) NSString *miaoli;
-@property (nonatomic, strong) NSString *taichung;
-@property (nonatomic, strong) NSString *changhua;
-@property (nonatomic, strong) NSString *chiayi;
-@property (nonatomic, strong) NSString *yunlin;
-@property (nonatomic, strong) NSString *tainan;
-@property (nonatomic, strong) NSString *zuoying;
-
-@property (nonatomic, strong) NSString *monday;
-@property (nonatomic, strong) NSString *tuesday;
-@property (nonatomic, strong) NSString *wednesday;
-@property (nonatomic, strong) NSString *thursday;
-@property (nonatomic, strong) NSString *friday;
-@property (nonatomic, strong) NSString *saturday;
-@property (nonatomic, strong) NSString *sunday;
+- (NSString *)trainValueForKey:(NSString *)key;
 
 @end
 

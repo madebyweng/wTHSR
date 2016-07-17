@@ -26,7 +26,7 @@
     
     self.tableView.rowHeight = ROW_HEIGHT;
     
-    if ([self.key isEqualToString:MMThsrSounthbound]) {
+    if ([self.key isEqualToString:MMThsrSouthbound]) {
         
         self.trains = [[MMThsrNoSql instance] sounthbound];
         self.stations = [[MMThsrNoSql instance] stations];
@@ -54,19 +54,19 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	
+    
     if (section == 0) {
         return 0;
     }
     
     return self.trains.count;
-	return 1;
+    return 1;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section  {
     
     if (section == 0) {
-        return NULL;
+        return nil;
     }
     
     THSRTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"header"];
@@ -80,13 +80,13 @@
     UILabel *label = nil;
     label = (UILabel*)[cell viewWithTag:91];
     label.text = @"NO";
-
+    
     label = (UILabel*)[cell viewWithTag:92];
     label.text = NSLocalizedString(@"OperateLabel", @"行駛日");
     label.textAlignment = NSTextAlignmentRight;
     label.textColor = [UIColor redColor];
-
-
+    
+    
     for (NSInteger i = 0; i<self.stations.count; i++) {
         NSDictionary *s = self.stations[i];
         label = (UILabel*)[cell viewWithTag:i+1];
@@ -98,41 +98,41 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     if (section ==0) {
         return 0;
-//        return MOPUB_BANNER_SIZE.height;
     }
     return ROW_HEIGHT;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
-
+    
+    
     if (indexPath.section == 0) {
         UITableViewCell *c = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ad"];
         return c;
     }
-	
+    
     static NSString *CellIdentifier = @"TimetableCell";
-	THSRTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    THSRTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[THSRTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.numberOfStations = self.stations.count;
         [cell createSubviews];
-	}
-	
-
-	MMTrain *train = [self.trains objectAtIndex:indexPath.row];
-
-    //
-	UILabel *txtView;
-	txtView = (UILabel*)[cell viewWithTag:91];
-//    txtView.contentMode = UIViewContentModeRight;
-	txtView.text = [@"" stringByAppendingFormat:@"%d",  train.train.intValue];
-	txtView.adjustsFontSizeToFitWidth = YES;
+    }
     
-    //
+    
+    MMTrain *train = [self.trains objectAtIndex:indexPath.row];
+    
+    // 車號
+    NSString *number = [train trainValueForKey:@"train"];
+    UILabel *txtView;
+    txtView = (UILabel*)[cell viewWithTag:91];
+    txtView.text = [@"" stringByAppendingFormat:@"%d", number.intValue];
+    txtView.adjustsFontSizeToFitWidth = YES;
+    
+    // 營運日期
+    NSString *_operate = [train trainValueForKey:@"operate"];
     NSString *operate = @"";
-    if (train.operate) {
-        NSArray *days = [train.operate componentsSeparatedByString:@","];
+    if (_operate) {
+        NSArray *days = [_operate componentsSeparatedByString:@","];
         
         for (NSString *k in days) {
             
@@ -143,19 +143,21 @@
             
         }
     }
-    
     txtView = (UILabel*)[cell viewWithTag:92];
     txtView.text = operate;
     txtView.textColor = [UIColor redColor];
     
+    
+    // 顯示各車站時間
     int i =1;
     for (NSDictionary *s in self.stations) {
-        
+        NSString *station = [train trainValueForKey:[s[@"value"] lowercaseString]];
         txtView = (UILabel*)[cell viewWithTag:i];
-        txtView.text = [train valueForKey:[s[@"value"] lowercaseString] ];
+        txtView.text = station;
         i++;
     }
-
+    
+    
     
     
     if (indexPath.row % 2) {
@@ -163,15 +165,16 @@
     } else {
         cell.backgroundColor = [UIColor clearColor];
     }
-	
-
-	return cell;
+    
+    
+    return cell;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-
-	return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+    
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
+
 
 
 
